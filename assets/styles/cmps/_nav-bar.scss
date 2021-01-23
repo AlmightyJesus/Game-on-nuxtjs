@@ -1,0 +1,21 @@
+.nav-bar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(135, 42, 51, 1);
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        img{
+            width: 90px;
+        }
+        
+    }
+    span{
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}

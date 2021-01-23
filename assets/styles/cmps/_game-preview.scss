@@ -1,0 +1,19 @@
+.game-preview {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+
+  .game-link {
+    width: 130px;
+    height: 130px;
+    background-color: #b33043;
+    border-radius: 20000px;
+    img {
+      width: 100px;
+    }
+  }
+  .game-name-link {
+    color: white;
+    font-size: 28px;
+  }
+}

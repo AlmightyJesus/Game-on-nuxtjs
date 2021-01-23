@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 78px);
+  background-image: url("~assets/img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.games-list {
+  width: 100%;
+}

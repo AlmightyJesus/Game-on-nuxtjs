@@ -1,0 +1,55 @@
+.pre-game-screen {
+  background-image: url("~assets/img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15px;
+  height: calc(100vh - 78px);
+  color: white;
+  .home-link {
+    padding: 15px 25px;
+    color: white;
+  }
+  .top-banner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 25px;
+    .banner-top {
+      flex-direction: row-reverse;
+      h3 {
+        font-size: 2.2rem;
+      }
+    }
+    img {
+      width: 200px;
+      display: flex;
+      align-self: center;
+      justify-self: center;
+    }
+    .play-button {
+      background-color: #44c767;
+      border-radius: 42px;
+      border: 1px solid #18ab29;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: Trebuchet MS;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+      padding: 13px 29px;
+      text-decoration: none;
+      outline: none;
+      &:hover {
+        background-color: #42b961;
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+  .game-rules {
+    padding: 15px 25px;
+    color: white;
+  }
+}
